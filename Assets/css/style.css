@@ -1,0 +1,22 @@
+#name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+
+}
+body {
+    background-image: url("../images/new_year_background.png");
+}
+#ctn-article{
+    background-color: white;
+}
+#navbar{
+    background-image: url("../images/wall-1846965_1920.jpg");
+}
+
+#about {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#about-txt {
+    font-family: 'Monserrat', sans-serif;
+}
