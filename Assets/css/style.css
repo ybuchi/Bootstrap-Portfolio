@@ -33,4 +33,10 @@ body {
 #footer{
     background-image: url("../images/wall-1846965_1920.jpg");
     color: white;
+    position: relative;
+    bottom: 0;
+}
+
+#message{
+    height: 400px;
 }
