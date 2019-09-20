@@ -11,6 +11,7 @@ body {
 }
 #navbar{
     background-image: url("../images/wall-1846965_1920.jpg");
+    border-bottom: solid 2px rgb(94, 150, 245);
 }
 
 #about {
@@ -27,4 +28,9 @@ body {
 
 #contact-form {
     background-color: white;
+}
+
+#footer{
+    background-image: url("../images/wall-1846965_1920.jpg");
+    color: white;
 }
