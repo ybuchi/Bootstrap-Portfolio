@@ -5,6 +5,7 @@
 }
 body {
     background-image: url("../images/new_year_background.png");
+    margin-top: 100px;
 }
 #ctn-article{
     background-color: white;
@@ -12,6 +13,12 @@ body {
 #navbar{
     background-image: url("../images/wall-1846965_1920.jpg");
     border-bottom: solid 2px rgb(94, 150, 245);
+}
+.sticky-navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
 }
 
 #about {
