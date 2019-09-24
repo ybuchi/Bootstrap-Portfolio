@@ -23,30 +23,31 @@
     <title>Bootstrap-Portfolio</title>
 </head>
 <body>
-   <!--NavBar Copy Pasted from Bootstrap-->
-   <nav class="navbar navbar-expand-lg navbar-dark navbar-fixed-top" id="navbar">
-    <a class="navbar-brand" id="name" href="index.html">Yannik Büchi</a>
-    <!--Keep this part because this it the button that will appear when the navbar collapses-->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto" id="navbar-menu-list">
-        <li class="nav-item active" id="navbar-menu-list">
-          <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+  <!--NavBar Copy Pasted from Bootstrap-->
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-fixed-top sticky-navbar" id="navbar">
+      <a class="navbar-brand" id="name" href="index.html">Yannik Büchi</a>
+      <!--Keep this part because this it the button that will appear when the navbar collapses-->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
     
-    <div class="container p-2 my-4">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto" id="navbar-menu-list">
+          <li class="nav-item active" id="navbar-menu-list">
+            <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- End of Navbar -->
+    
+    <div class="container p-2" id="project-lineup">
 
         <!--First Row of Three Cards-->
             <div class="row">
@@ -86,7 +87,7 @@
                         <img src="Assets/images/Abstract4.jpg" class="card-img-top" alt="Abstract1">
                             <div class="card-body">
                                 <h5 class="card-title" id="card-title-4">Trivia Game</h5>
-                                <a href="https://ybuchi.github.io/TriviaGame/" class="btn btn-primary">Visit</a>
+                                <a href="https://ybuchi.github.io/TriviaGame/" class="btn btn-primary" id="project-link-4">Visit</a>
                             </div>
                     </div>
                 </div>
@@ -123,7 +124,7 @@
         <div class="col-md-6 mt-md-0 mt-3">
   
           <!-- Content -->
-          <h5 class="text-uppercase">Contact Info</h5>
+          <h5 class="text-uppercase" id="contact-info-title">Contact Info</h5>
           <ul class="list-unstyled">
             <li>
               GitHub Profile: <a href="https://github.com/ybuchi">https://github.com/ybuchi</a>
@@ -145,47 +146,23 @@
         <hr class="clearfix w-100 d-md-none pb-3">
   
         <!-- Grid column -->
-        <div class="col-md-3 mb-md-0 mb-3">
+        <div class="col-md-6 mb-md-0 mb-3">
   
           <!-- Links -->
-          <h5 class="text-uppercase">Project Links</h5>
+          <h5 class="text-uppercase" id="project-links-title">Project Links</h5>
   
           <ul class="list-unstyled">
             <li id="project-name-1">
-              <a href="#!"></a>
+              <a id="link-1"></a>
             </li>
             <li id="project-name-2">
-              <a href="#!"></a>
+              <a id="link-2"></a>
             </li>
             <li id="project-name-3">
-              <a href="#!"></a>
+              <a id="link-3"></a>
             </li>
             <li id="project-name-4">
-              <a href="#!"></a>
-            </li>
-          </ul>
-  
-        </div>
-        <!-- Grid column -->
-  
-        <!-- Grid column -->
-        <div class="col-md-3 mb-md-0 mb-3">
-  
-          <!-- Links -->
-          <h5 class="text-uppercase">Links</h5>
-  
-          <ul class="list-unstyled">
-            <li>
-              <a href="#!">Link 1</a>
-            </li>
-            <li>
-              <a href="#!">Link 2</a>
-            </li>
-            <li>
-              <a href="#!">Link 3</a>
-            </li>
-            <li>
-              <a href="#!">Link 4</a>
+              <a id="link-4"></a>
             </li>
           </ul>
   
