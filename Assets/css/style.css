@@ -1,10 +1,11 @@
+
 #name {
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
-
 }
 body {
     background-image: url("../images/new_year_background.png");
+    padding-top:70px;
 }
 #ctn-article{
     background-color: white;
@@ -91,5 +92,5 @@ a {
     color: rgb(0, 119, 255);
 }
 #opacitybg{
-    background-color: rgba(251, 251, 251, 0.712)
+    background-color: rgba(251, 251, 251, 0.712);
 }
