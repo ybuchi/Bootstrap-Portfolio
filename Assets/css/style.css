@@ -25,6 +25,7 @@ body {
 
 #ProfileContainer{
     margin: 10px 0px 10px;
+    display: inline-block;
 }
 
 #bio{
