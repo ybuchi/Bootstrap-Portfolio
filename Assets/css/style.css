@@ -5,27 +5,44 @@
 }
 body {
     background-image: url("../images/new_year_background.png");
-    padding-top:70px;
 }
+
 #ctn-article{
     background-color: white;
     background-image: url("../images/MoutnainBG.jpg");
     font-family: 'Exo 2', sans-serif;
 }
 #ProfilePic{
-    border: 1px solid #ddd;
     border-radius: 4px;
-    padding: 5px;
-    margin-top: 50px;
+    width: 100%;
+    margin: 50px 0px 30px;
+
+    
 }
 
 #ProfileJumbo{
     padding: 25px 0px 25px;
+    margin-top: 25px 0px 25px;
 }
 
 #ProfileContainer{
-    margin: 10px 0px 10px;
+    max-width:100%;
+    margin: 35px 0px 35px;
+    padding: 0px;
+    text-align: center;
     display: inline-block;
+}
+
+#ProfileInfo{
+    margin: auto;
+    text-align: center;
+    display: block;
+    width: 50%;
+}
+
+#pic{
+    width: 25%;
+    border-radius: 50%;
 }
 
 #bio{
