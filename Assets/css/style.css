@@ -10,6 +10,10 @@ body {
 #ctn-article{
     font-family: 'Titillium Web', sans-serif;
 }
+#ctn-description{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 12px;
+}
 #ProfilePic{
     border-radius: 4px;
     width: 100%;
