@@ -8,15 +8,12 @@ body {
 }
 
 #ctn-article{
-    background-color: white;
-    font-family: 'Exo 2', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
 }
 #ProfilePic{
     border-radius: 4px;
     width: 100%;
-    margin: 50px 0px 30px;
-
-    
+    margin: 50px 0px 30px;  
 }
 
 #ProfileJumbo{
@@ -46,7 +43,7 @@ body {
 
 #bio{
     margin-top: 100px;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
 }
 #navbar{
     background-image: url("../images/wall-1846965_1920.jpg");
@@ -120,45 +117,3 @@ a {
 #opacitybg{
     background-color: rgba(251, 251, 251, 0.712);
 }
-
-
-/* body {
-  background-color: #333;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-} */
-
-#subnav {
-  background-color: #000;
-  display: block;
-  padding: 1em 0;
-  text-align: center;
-  width: 200px;
-}
-
-#subnav .subnavText {
-  color: #fff;
-  margin: 0 1em;
-  text-decoration: none;
-}
-
-.scrolling-box {
-  background-color: #eaeaea;
-  display: block;
-  height: 200px;
-  overflow-y: scroll;
-  text-align: center;
-  width: 200px;
-}
-
-section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-}
-
-
-
