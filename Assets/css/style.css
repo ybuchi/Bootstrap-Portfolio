@@ -4,6 +4,12 @@
     font-size: 30px;
 }
 
+.btn-primary{
+    margin: 30px 30px;
+    width: 100px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
 
 #ctn-article{
     font-family: 'Titillium Web', sans-serif;
@@ -155,4 +161,11 @@ a {
 }
 #opacitybg{
     background-color: rgba(251, 251, 251, 0.712);
+}
+#sql-logo, #css-logo, #javascript-logo, #python-logo, #react-logo, #node-logo{
+    width: 100px;
+}
+#summary{
+    background-color: lightblue; 
+    border-radius: 10px;
 }
