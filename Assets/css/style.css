@@ -83,7 +83,7 @@
 
 #pic{
     width: 25%;
-    border-radius: 50%;
+    border-radius: 20%;
 }
 
 #bio{
@@ -91,7 +91,7 @@
     margin-bottom: 100px;
 }
 #navbar{
-    background-image: url("../images/wall-1846965_1920.jpg");
+    /* background-image: url("../images/wall-1846965_1920.jpg"); */
     border-bottom: solid 2px rgb(94, 150, 245);
 }
 .sticky-navbar{
@@ -125,7 +125,7 @@
 }
 
 #footer{
-    background-image: url("../images/wall-1846965_1920.jpg");
+    /* background-image: url("../images/wall-1846965_1920.jpg"); */
     color: white;
     position: relative;
     bottom: 0;
@@ -168,4 +168,11 @@ a {
 #summary{
     background-color: lightblue; 
     border-radius: 10px;
+}
+.img-thumbnail{
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
