@@ -1,6 +1,6 @@
 
 #name {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 30px;
 }
 
@@ -60,6 +60,8 @@
 #ProfileJumbo{
     padding: 25px 0px 25px;
     margin-top: 25px 0px 25px;
+    font-family: Ubuntu, sans-serif;
+    font-weight: bold;
 }
 
 #ProfileContainer{
@@ -86,7 +88,7 @@
     border-radius: 20%;
 }
 
-#bio{
+#resume{
     margin-top: 100px;
     margin-bottom: 100px;
 }
