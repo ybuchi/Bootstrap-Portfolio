@@ -180,3 +180,13 @@ a {
     width: 50%;
 }
 .material-icons.md-60 { font-size: 60px; }
+
+#emoji_nature{
+    color: orange;
+}
+#emoji_code{
+    color: lightskyblue;
+}
+#emoji_engineering{
+    color: purple
+}
