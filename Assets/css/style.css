@@ -4,9 +4,9 @@
     font-size: 30px;
 }
 
-.navbar .collapse{
-    color:black;
-} 
+.navbar-light{
+    font-family: 'Ubuntu', sans-serif;
+}
 
 .btn-primary{
     margin: 30px 30px;
