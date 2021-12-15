@@ -217,7 +217,7 @@ a {
     margin-bottom: 20px;
     padding: auto;
     width:100% !important; 
-    background-color: rgba(23, 104, 105, 0.472);
+    background-color: rgba(255, 166, 0, 0.246);
     color: black;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -234,7 +234,7 @@ p{
     margin-left: 0px;
     margin-top: 20px;
     margin-bottom: 20px;
-    background-color: rgba(255, 166, 0, 0.246);
+    background-color: rgba(23, 104, 105, 0.472);
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 
@@ -254,4 +254,16 @@ p{
 
 #tableau-icon{
     width:30px;
+}
+#python-logo{
+    width: 50px;
+}
+#mysql{
+    font-size: 60px;
+}
+#postgresql{
+    font-size: 60px;
+}
+#javascript-logo{
+    font-size: 40px;
 }
