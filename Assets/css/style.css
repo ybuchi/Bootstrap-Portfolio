@@ -84,7 +84,11 @@
 
 #pic{
     width: 25%;
+    border: 1px solid white;
     border-radius: 20%;
+}
+#pic:hover{
+    border: 1px solid yellow;
 }
 
 #resume{
@@ -246,4 +250,8 @@ p{
 }
 .landing-icon:hover{
     border: 5px;
+}
+
+#tableau-icon{
+    width:30px;
 }
